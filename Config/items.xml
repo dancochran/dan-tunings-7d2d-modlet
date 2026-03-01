@@ -1,0 +1,41 @@
+<configs>
+  <!-- increase stack sizes -->
+  <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
+  <set xpath="//item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
+  <set xpath="//item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>
+  <set xpath="//item[starts-with(@name, 'resource') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">30000</set>
+  <set xpath="//item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="//item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
+  <set xpath="//item[@name='ammoGasCanBundle']//property[@name='Create_item_count']/@value">30000</set>
+  <set xpath="//item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+  <set xpath="//item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="//item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="//item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
+  <set xpath="//item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='resourceLockPickBundle']//property[@name='Create_item_count']/@value">500</set>
+
+  <!-- crafting time -->
+  <set xpath="//item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>
+  <set xpath="//item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
+  <set xpath="//item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
+
+  <!-- smelting time -->
+  <set xpath="//item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
+  <set xpath="//item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-0.5</set>
+
+
+
+
+</configs>

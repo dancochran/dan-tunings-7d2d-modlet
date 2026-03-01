@@ -1,0 +1,7 @@
+<configs>
+  <set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']/@level">1,2,3,4,5</set>
+  <set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']/@value">-.1,-.2,-.3,-.4,-.5</set>
+  <set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity']/@value">5,10,30,45,60</set>
+  <set xpath="progression/perks/book[@name='perkFiremansAlmanacComplete']/effect_group/passive_effect[@name='CarryCapacity']/@value">120</set>
+  <set xpath="progression/perks/book[@name='perkNightStalkerThiefAdrenaline']/effect_group/passive_effect[@name='CarryCapacity']/@value">120</set>  
+</configs>
