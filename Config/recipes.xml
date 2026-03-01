@@ -2,7 +2,7 @@
   <!-- increase bundle sizes -->
   <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=6000]/@count">30000</set>
 
-  <!-- Reduce recipe mats -->
+  <!-- reduce recipe mats -->
   <set xpath="//recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
