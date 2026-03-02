@@ -87,11 +87,11 @@
   <set xpath="//entity_class[@name='animalBossGrace']/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest']/@count">30</set>
   <set xpath="//entity_class[@name='animalBossGrace']/drop[@event='Harvest' and @name='resourceBone' and @tag='butcherHarvest']/@count">75</set>
   <set xpath="//entity_class[@name='animalBossGrace']/drop[@event='Harvest' and @name='resourceBone' and @tag='butcherHarvest']/@count">15</set>
-  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed']/@value">2.5</set>
-  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed']/@value">1.5</set>
-  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='CrouchSpeed']/@value">1.25</set>
-  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed'][@tags='swimming']/@value">2.0</set>
-  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed'][@tags='swimming']/@value">1.5</set>
+  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed']/@value">5.0</set>
+  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed']/@value">3.0</set>
+  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='CrouchSpeed']/@value">2.5</set>
+  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed'][@tags='swimming']/@value">4.0</set>
+  <set xpath="//entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed'][@tags='swimming']/@value">3.0</set>
 
   <!-- backpack -->
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">120</set>
