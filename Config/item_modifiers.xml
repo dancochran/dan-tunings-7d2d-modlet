@@ -1,0 +1,8 @@
+<configs>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT1']/effect_group/passive_effect[@name='HypothermalResist']/@value">20</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT1']/effect_group/passive_effect[@name='HyperthermalResist']/@value">20</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT2']/effect_group/passive_effect[@name='HypothermalResist']/@value">50</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT2']/effect_group/passive_effect[@name='HyperthermalResist']/@value">50</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT3']/effect_group/passive_effect[@name='HypothermalResist']/@value">100</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT3']/effect_group/passive_effect[@name='HyperthermalResist']/@value">100</set>
+</configs>
