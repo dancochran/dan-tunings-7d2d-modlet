@@ -2026,4 +2026,19 @@
   <set xpath="//block[@name='trapSpikesScrapIronMaster']/property[@class='RepairItems']/property[@name='resourceScrapIron']/@value">4</set>
   <set xpath="//block[@name='trapSpikesIronDmg2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
   <set xpath="//block[@name='trapSpikesIronDmg1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+
+  <!-- decrease heatmap impact of some items -->
+  <set xpath="//block[@name='wallTorchLightPlayer']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='candleWallLightPlayer']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='burningBarrelPlayer']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='cntApiary']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='campfire']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='cntDewCollector']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='forge']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='workbench']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='cementMixer']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='chemistryStation']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='wallTorchLightPlayer']/property[@name='HeatMapStrength']/@value">0</set>
+  <set xpath="//block[@name='wallTorchLightPlayer']/property[@name='HeatMapStrength']/@value">0</set>
+
 </configs>
