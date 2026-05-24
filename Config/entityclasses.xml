@@ -95,5 +95,39 @@
 
   <!-- backpack -->
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">120</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">60</set>  
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">60</set>
+
+  <!-- disable rancher bees and chuck boulders -->
+  <set xpath="/entity_classes/entity_class[@name='zombieRancher']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieRancherFeral']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieRancherRadiated']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieRancherCharged']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieRancherInfernal']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieChuck']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieChuckFeral']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieChuckRadiated']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieChuckCharged']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieChuckInfernal']/property[@name='HandItem']/@value">meleeHandZombie01</set>
+
+  <!-- disable screamers -->
+  <remove xpath="//entity_class[@name='zombieScreamer']" />
+  <remove xpath="//entity_class[@name='zombieScreamerFeral']" />
+  <remove xpath="//entity_class[@name='zombieScreamerRadiated']" />
+  <remove xpath="//entity_class[@name='zombieScreamerCharged']" />
+
+  <append xpath="/entity_classes">
+    <entity_class name="zombieScreamer" extends="zombieBoe">
+      <property name="Tags" value="entity,zombie,walker,allbiome"/>
+    </entity_class>
+    <entity_class name="zombieScreamerFeral" extends="zombieBoeFeral">
+      <property name="Tags" value="entity,zombie,walker,allbiome,feral"/>
+    </entity_class>
+    <entity_class name="zombieScreamerRadiated" extends="zombieBoeRadiated">
+      <property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated"/>
+    </entity_class>
+    <entity_class name="zombieScreamerCharged" extends="zombieBoeCharged">
+      <property name="Tags" value="entity,zombie,walker,feral,charged,allbiome"/>
+    </entity_class>
+  </append>
+
 </configs>
